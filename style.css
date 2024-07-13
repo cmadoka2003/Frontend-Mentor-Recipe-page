@@ -1,0 +1,259 @@
+:root {
+    --Nutmeg: hsl(14, 45%, 36%);
+    --Dark-Raspberry: hsl(332, 51%, 32%);
+    --White: hsl(0, 0%, 100%);
+    --Rose-White: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --Light-Grey: hsl(30, 18%, 87%);
+    --Wenge-Brown: hsl(30, 10%, 34%);
+    --Dark-Charcoal: hsl(24, 5%, 18%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Outfit";
+    background: var(--Eggshell);
+}
+
+.content {
+    width: 483px;
+    height: 240vh;
+    background: var(--White);
+}
+
+h1, h2 {
+    font-family: "Young Serif";
+    font-weight: 400;
+}
+
+.img {
+    background: no-repeat center/cover url(./assets/images/image-omelette.jpeg);
+    width: 483px;
+    height: 200px;
+    position: relative;
+}
+
+p {
+    color: var(--Wenge-Brown);
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 40px;
+    padding-left: 65px;
+}
+
+hr {
+    width: 350px;
+    margin-left: 65px;
+    border: 1px solid rgba(0, 0, 0, 0.075);
+}
+
+.bloc-1_descrip {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-left: 65px;
+    padding-right: 65px;
+    font-size: 18px;
+}
+
+.prepa {
+    background: hsla(332, 51%, 32%, 0.034);
+    border-radius: 15px;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+
+.prepa h2 {
+    color: var(--Dark-Raspberry);
+    padding-left: 25px;
+    padding-top: 25px;
+    font-weight: 600;
+}
+
+.prepa ul {
+    color: var(--Dark-Raspberry);
+}
+
+.prepa ul {
+    margin-left: 50px;
+    padding-bottom: 25px;
+}
+
+.bloc-1_li-text {
+    padding: 10px 0;
+    padding-right: 80px;
+    padding-left: 25px;
+}
+
+.bloc-2 h2 {
+    font-weight: 600;
+    font-size: 30px;
+    padding-top: 40px;
+    padding-left: 65px;
+    padding-bottom: 25px;
+    color: var(--Nutmeg);
+}
+
+.bloc-2 ul {
+    margin-left: 85px;
+    color: var(--Nutmeg);
+    padding-bottom: 35px;
+}
+
+.bloc-2_li-text {
+    padding-right: 105px;
+    margin-left: 20px;
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+
+.bloc-3 h2 {
+    font-weight: 600;
+    font-size: 30px;
+    padding-top: 40px;
+    padding-left: 65px;
+    padding-bottom: 25px;
+    color: var(--Nutmeg);
+}
+
+.bloc-3 ol {
+    margin-left: 85px;
+    color: var(--Nutmeg);
+    padding-bottom: 35px;
+}
+
+.bloc-3_li-text {
+    padding-right: 75px;
+    margin-left: 20px;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.bloc-4 h2 {
+    font-weight: 600;
+    font-size: 30px;
+    padding-top: 40px;
+    padding-left: 65px;
+    color: var(--Nutmeg);
+}
+
+.bloc-4_descrip {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    padding-left: 65px;
+    padding-right: 80px;
+    font-size: 18px;
+}
+
+.bloc-4_numbers {
+    display: flex;
+    margin: 15px 0;
+    margin-left: 100px;
+}
+
+.bloc-4_numbers .text {
+    width: 150px;
+}
+
+.numbers {
+    color: var(--Nutmeg);
+    font-weight: 700;
+}
+
+
+@media screen and (min-width: 1440px) {
+    .content {
+        width: 1000px;
+        height: 100%;
+        margin-top: 110px;
+        border-radius: 25px;
+        margin-bottom: 110px;
+    }
+
+    hr {
+        width: 850px;
+    }
+
+    .bg-white {
+        color: var(--White);
+    }
+
+    .img {
+        width: 870px;
+        height: 400px;
+        margin: 65px;
+        margin-bottom: 0;
+        border-radius: 25px;
+    }
+
+    .bloc-1 h1 {
+        font-size: 53px;
+    }
+    
+    .bloc-1_descrip {
+        font-size: 21px;
+        padding-right: 50px;
+    }
+
+    .prepa h2 {
+        padding-left: 50px;
+    }
+
+    .prepa ul {
+        margin-left: 75px;
+        padding-bottom: 25px;
+    }
+
+    .bloc-1_li-text {
+        font-size: 20px;
+    }
+    
+    .bloc-2 h2 {
+        font-size: 35px;
+    }
+
+    .bloc-2_li-text {
+        font-size: 20px;
+    }
+
+    .bloc-3 h2 {
+        font-size: 35px;
+    }
+
+    .bloc-3_li-text {
+        font-size: 21px;
+        padding-right: 90px;
+    }
+
+    .bloc-4 {
+        margin-bottom: 60px;
+    }
+
+    .bloc-4 h2 {
+        font-size: 35px;
+    }
+
+    .bloc-4_descrip {
+        font-size: 20px;
+    }
+
+    .bloc-4_numbers .text {
+        font-size: 20px;
+        width: 395px;
+    }
+
+}
+
+
+
+
